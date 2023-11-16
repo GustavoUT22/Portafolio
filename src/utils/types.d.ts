@@ -1,0 +1,1 @@
+/* solo puede ir tipado */

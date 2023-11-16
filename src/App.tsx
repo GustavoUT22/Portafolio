@@ -1,3 +1,5 @@
+import ProfilePresentacion from "./pages/ProfilePresentacion/profile-presentacion";
+
 function App() {
   return (
     <>
@@ -14,15 +16,9 @@ function App() {
         </nav>
       </header>
       <main>
+        <ProfilePresentacion/>
         <section>
-          <div>foto de perfil</div>
-          <div>
-            <h4>Hi, My name Gustavo</h4>
-            <span>Full Stack Developer</span>
-          </div>
-        </section>
-        <section>
-          <h2>Who am I</h2>
+          <h2>About me</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
             quos culpa placeat quae. Pariatur quisquam facilis consectetur illum
