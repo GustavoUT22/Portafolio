@@ -1,19 +1,16 @@
 import ProfilePresentacion from "./pages/ProfilePresentacion/profile-presentacion";
+import Navbar from "./components/NavBar/Navbar";
+import styled from "styled-components";
+
+const ContainerPage = styled.div`
+  background: none;
+`
 
 function App() {
   return (
-    <>
+    <ContainerPage>
       <header>
-        <nav>
-          <img></img>
-          <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Portafolio</li>
-            <li>Blog</li>
-            <li>Contact us</li>
-          </ul>
-        </nav>
+        <Navbar/>
       </header>
       <main>
         <ProfilePresentacion/>
@@ -80,7 +77,7 @@ function App() {
         </section>
       </main>
       <footer></footer>
-    </>
+    </ContainerPage>
   );
 }
 
