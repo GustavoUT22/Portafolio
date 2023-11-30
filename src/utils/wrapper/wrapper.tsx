@@ -8,7 +8,7 @@ interface Props {
 }
 
 const Wrapper: React.FC<Props> = ({displayType, direction, gap, children}) => {
-  return <StyledWrapper displaytType={displayType} direction={direction} gap={gap}>{children}</StyledWrapper>
+  return <StyledWrapper displayType={displayType} direction={direction} gap={gap}>{children}</StyledWrapper>
 }
 
 export default Wrapper

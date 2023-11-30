@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 interface IStyledWrapper {
-  displaytType: "flex" | "none"| "grid" | "block"
+  displayType: "flex" | "none"| "grid" | "block"
   direction: "row" | "column"
   gap: "8px" | "16px" | "32px"
 }
@@ -45,7 +45,7 @@ const directionStyles = (direction: string) => {
 }
 
 export const StyledWrapper = styled.div<IStyledWrapper>`
-  ${(props) => typeStyles(props.displaytType)}
+  ${(props) => typeStyles(props.displayType)}
   ${(props) => directionStyles(props.direction)}
   ${(props) => gapStyles(props.gap)}
 `

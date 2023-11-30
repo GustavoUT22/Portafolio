@@ -1,15 +1,11 @@
 import ProfilePresentacion from "./pages/ProfilePresentacion/profile-presentacion";
 import Navbar from "./components/NavBar/Navbar";
-import styled from "styled-components";
-
-const ContainerPage = styled.div`
-  background: none;
-`
+import Container from "./utils/container/Container";
 
 function App() {
   return (
-    <ContainerPage>
-      <header>
+    <Container size="xl">
+      <header style={{width:"100%"}}>
         <Navbar/>
       </header>
       <main>
@@ -77,7 +73,7 @@ function App() {
         </section>
       </main>
       <footer></footer>
-    </ContainerPage>
+    </Container>
   );
 }
 
