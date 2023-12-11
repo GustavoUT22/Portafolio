@@ -5,11 +5,17 @@ const ContainerFooter = styled.footer`
   background-color: gray;
   width: 100%;
 `
+const FooterWrapper = styled.div`
+  max-width: 1248px;
+  margin: 0 auto;
+`
 
 const Footer = () => {
   return(
     <ContainerFooter>
-      <h3>Footer</h3>
+      <FooterWrapper>
+        <h3>Footer</h3>
+      </FooterWrapper>
     </ContainerFooter>
   )
 }

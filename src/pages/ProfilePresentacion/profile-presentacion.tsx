@@ -32,7 +32,7 @@ const ProfilePresentacion: React.FC = (): React.ReactElement => {
           <h2>Gustavo Ugarte</h2>
           <h3>Software Developer</h3>
         </div>
-      </SpaceBetween>
+        </SpaceBetween>
     </ContainerPresentacion>
   );
 };

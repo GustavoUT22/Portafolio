@@ -63,6 +63,9 @@ export const reset = css`
   select {
     font: inherit;
   }
+  body {
+    /* background-color: black; */
+  }
 
   /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
   @media (prefers-reduced-motion: reduce) {
