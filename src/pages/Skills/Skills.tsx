@@ -1,9 +1,14 @@
 import styled from "styled-components";
 
 const ContainerSkills = styled.div`
-  height: 30vh;
-  background-color: aliceblue;
+  height: auto;
+  background-color: #272727;
   width: 100%;
+  color: #c6fff9;
+  border: 1px solid #086467;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
 `;
 
 const Skills = () => {
