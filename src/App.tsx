@@ -6,10 +6,15 @@ import Skills from "./pages/Skills/Skills";
 import ContactMe from "./pages/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import styled from "styled-components";
+
+const PageWrapper = styled.div`
+  height: 100vh;
+`
 
 function App() {
   return (
-    <div>
+    <PageWrapper>
       <Header/>
       <Container size="xl">
         <ProfilePresentacion/>
@@ -19,7 +24,7 @@ function App() {
         <ContactMe/>
       </Container>
       <Footer/>
-    </div>
+    </PageWrapper>
   );
 }
 
