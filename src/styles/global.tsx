@@ -64,7 +64,7 @@ export const reset = css`
     font: inherit;
   }
   body {
-    /* background-color: black; */
+    background-color: #272727;
   }
 
   /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
