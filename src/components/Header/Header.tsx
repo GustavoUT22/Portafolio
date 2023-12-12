@@ -6,6 +6,8 @@ const ContainerHeader = styled.div`
   background-color: #272727;
   color: white;
   padding: 10px 0;
+  position: fixed;
+  box-shadow: 0 5px 10px rgba(0, 199, 196, 0.5);
 `;
 
 const StyledNavbar = styled.nav`
@@ -25,7 +27,7 @@ const NameStyles = styled.h2`
  color: #19e8e2;
  font-family: poppins;
  font-weight: 700;
- text-shadow: 4px 4px 8px rgba(25, 232, 226, 0.5);;
+ text-shadow: 3px 3px 6px rgba(25, 232, 226, 0.5);;
  `
 
 const Header = () => {
