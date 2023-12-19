@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 const ContainerProjects = styled.section`
   height: auto;
   background-color: #272727;
@@ -40,6 +40,7 @@ const Projects = () => {
           <a href="#">go repo</a>
           <a href="#">open project</a>
         </div>
+        <ProjectCard/>
       </div>
     </ContainerProjects>
   );

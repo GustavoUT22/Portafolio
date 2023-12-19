@@ -8,6 +8,7 @@ const ContainerHeader = styled.div`
   padding: 10px 0;
   position: fixed;
   box-shadow: 0 5px 10px rgba(0, 199, 196, 0.5);
+  z-index: 10 ;
 `;
 
 const StyledNavbar = styled.nav`
