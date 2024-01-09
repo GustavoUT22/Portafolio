@@ -1,31 +1,37 @@
 import styled from "styled-components";
 
-const ContainerContactMe = styled.section`
-  height: auto;
-  background-color: #272727;
+const WrapperContactMe = styled.div`
   width: 100%;
-  color: #c6fff9;
-  border: 1px solid #086467;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  padding: 20px;
-`;
+  margin: auto;
+  position: relative;
+`
+
+const StyledSpace = styled.div`
+  height: 35vh;
+  background-color: gray;
+`
+const StyledImg = styled.div`
+  height: 35vh;
+  background-color: blueviolet;
+`
+const ContainerBox = styled.div`
+  height: 16vh;
+  width: 80%;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+`
 
 const ContactMe = () => {
-  return (
-    <ContainerContactMe>
-      <h2> Contact me</h2>
-      <form>
-        <label>Name</label>
-        <input type="text" />
-        <label>Email</label>
-        <input type="text" />
-        <label>Message</label>
-        <input type="text" />
-        <button>Send</button>
-      </form>
-    </ContainerContactMe>
-  );
-};
+  return(
+    <WrapperContactMe>
+      <StyledImg>Imagen</StyledImg>
+      <ContainerBox>form y contact info</ContainerBox>
+      <StyledSpace>espacio en blanco</StyledSpace>
+    </WrapperContactMe>
+  )
+}
+
 
 export default ContactMe
