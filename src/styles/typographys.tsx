@@ -1,5 +1,5 @@
 export const fonts = {
-  primary: `"Source Sans 3","Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  primary: `'Poppins', "Source Sans 3","Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif`,
   secondary: `"Lato", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
   Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif`,
